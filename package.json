@@ -2,7 +2,7 @@
   "name": "assignment-mobileye",
   "version": "0.1.0",
   "private": true,
-"homepage": "https://github.com/SamanthaKofler/mobileye-assignment",
+"homepage": "https://github.com/samanthakofler/mobileye-assignment",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
