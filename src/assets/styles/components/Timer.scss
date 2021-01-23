@@ -1,0 +1,21 @@
+.timer{
+    font-family: HindSiliguri Light;
+    p {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &:not(:first-child) {
+            border-left: 1px solid white;
+        }
+        height: 50px;
+        span {
+            font-size: rem(80px);
+            margin: -40% 0;
+        }
+        text-transform: uppercase;
+        width: 100px;
+        margin-bottom: 10px;
+    }   
+
+}

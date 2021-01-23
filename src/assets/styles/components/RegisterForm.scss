@@ -1,0 +1,63 @@
+.register {
+    outline: none;
+    justify-content: center;
+    // align-items: center;
+    width: 50%;
+    @media (max-width: 900px) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    height: 100%;
+    color: $dark;
+    // margin: 10px;
+    padding-bottom: 20px;;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    h1 {
+        text-transform: uppercase;
+        background-color: $clr1;
+        text-align: center;
+        padding: 15px;
+        font-size: rem(46px);
+        font-weight: 300;
+    }
+    input, select {
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid $dark;
+        font-family: HindSiliguri;
+        // font-size: rem(18px);
+    }
+    select {
+        color: grey;
+    }
+    .side1, .side2 {
+        padding: 10px;
+        align-items: center;
+        @media (max-width: 900px) {
+            width: 100%;
+            padding: 0 10px;
+        }
+    }
+    .checkbox {
+        display: flex;
+        padding: 5px;
+        margin: 5px;
+        input {
+            width: 10%;
+            font-size: 1rem;
+        }
+        label {
+            font-size: rem(10px);
+            color: grey;
+        }
+    }
+    button {
+        background-color: $clr1;
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

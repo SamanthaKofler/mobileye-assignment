@@ -1,0 +1,24 @@
+.home {
+    // background-image: url('./../img/top_bkg_fill.png');
+    // , url('./../img/top_bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 100vh;
+    .amnon-register {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        @media (max-width: 900px) {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        // justify-content: space-between;
+    }
+    .bgc {
+        position: absolute;
+        top: 15%;
+        width: 40%;
+        z-index: 10;
+    }
+}

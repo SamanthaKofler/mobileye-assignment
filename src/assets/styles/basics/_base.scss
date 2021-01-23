@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Anton, sans-serif;
+}
+p {
+    font-family: HindSiliguri;
+}
+
+h4 {
+    font-size: rem(24px);
+}
+
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+button:active {
+    box-shadow: 0 5px #222831;
+    transform: translateY(2px);
+}
+a:hover {
+    cursor: pointer;
+}

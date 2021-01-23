@@ -1,0 +1,25 @@
+.amnon {
+    width: 50%;
+    position: relative;
+    z-index: 10;
+    @media (max-width: 900px) {
+        width: 100%;
+        align-items: center;
+        p {
+            text-align: justify;
+        }
+    }
+    img {
+        width: 100px;
+    }
+    & *{
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: rem(30px);
+        font-weight: 300;
+    }
+    p:last-of-type {
+        font-weight: bold;
+    }
+}

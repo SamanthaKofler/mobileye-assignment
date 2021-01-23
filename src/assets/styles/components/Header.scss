@@ -1,0 +1,29 @@
+header {
+    background-color: black;
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+    // margin-bottom: 20px;
+    height: 60px;
+    img {
+        padding: 5px 0;
+        height: 130%;
+        cursor: pointer;
+    }
+    .social {
+        color: white;
+        &:hover {
+            cursor: pointer;
+        }
+        i {
+            margin: 0 8px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
+}
